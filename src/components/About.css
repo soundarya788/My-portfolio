@@ -1,0 +1,16 @@
+
+.about-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .about-header {
+    color: #333;
+  }
+  
+  .about-content {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
