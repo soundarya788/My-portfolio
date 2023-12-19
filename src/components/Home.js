@@ -1,8 +1,14 @@
 import React from 'react'
+import "./Home.css";
 
 function Home() {
   return (
-    <h2>this is our web</h2>
+    <div className="home">
+      <h2 className="home-header">Welcome</h2>
+      <p className="home-content">
+        Hi, I am soundarya priyadharshini
+      </p>
+      </div>
   )
 }
 

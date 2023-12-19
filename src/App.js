@@ -14,7 +14,13 @@ function App() {
     <div className="text" >
       <Router>
         <div className='app'>
-          <nav style={{ position: 'absolute', marginTop: '30px',marginLeft:'800px' }}>
+          <nav style={{  marginTop: '30px',marginLeft:'800px',position:'relative' }}>
+          
+          <Link to='/Home' className='nav-link' activeClassName='active-link'>
+          <span class="border-bottom" >
+              Home
+              </span>
+            </Link>
             <Link to='/About' className='nav-link'>
               About
             </Link>
@@ -27,12 +33,11 @@ function App() {
             <Link to='/Experience' className='nav-link'>
               Experience
             </Link>
-            <Link to='/Home' className='nav-link'>
-              Home
-            </Link>
+            
             <Link to='/Contact' className='nav-link'>
               Contact
             </Link>
+            
           </nav>
 
           <Routes>

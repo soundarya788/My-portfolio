@@ -1,0 +1,21 @@
+
+  
+  .home-header {
+    color: #333;
+    margin-left: 550px;
+    margin-top: 200px;
+    font-size: x-large;
+    color: #555;
+    
+}
+  
+  .home-content {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-left: 550px;
+    margin-top: 10px;
+    justify-content: center;
+    font-size: x-large;
+    position:'relative';
+  }
