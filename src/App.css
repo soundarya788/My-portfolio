@@ -45,7 +45,7 @@
   /* Media query for phone */
   @media screen and (max-width: 300px) {
     .nav-items {
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
     }
   
