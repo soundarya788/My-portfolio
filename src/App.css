@@ -8,20 +8,49 @@
     box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
   }
   
+  .nav-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-left: 700px;
+  }
+  
   .nav-items {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
-    margin-left: 900px;
-    
   }
   
   .nav-item {
-    margin-right: 20px;
+    margin-right: 20px; /* Adjust as needed for spacing */
   }
   
   .nav-item:last-child {
-    margin-right: 0;
+    margin-right: 0; /* Remove margin for the last item */
+  }
+  
+  /* Media query for tablet */
+  @media screen and (max-width: 768px) {
+    .nav-items {
+      flex-direction: column;
+    }
+  
+    .nav-item {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Media query for phone */
+  @media screen and (max-width: 480px) {
+    .nav-items {
+      flex-direction: column;
+    }
+  
+    .nav-item {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
   }
   
