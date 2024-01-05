@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 export default function App() {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <Home />
       <About />
       <Contact/>
