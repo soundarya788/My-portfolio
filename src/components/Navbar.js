@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
-
 const Navbar = () => {
   return (
     <nav className="navbar" id="navbar">
@@ -15,6 +14,7 @@ const Navbar = () => {
               smooth={true}
               offset={-70}
               duration={500}
+              style={{ marginLeft: '8px' }}
             >
               Home
             </Link>
@@ -43,6 +43,9 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
+          
+          
+          
         </ul>
       </div>
     </nav>
@@ -50,3 +53,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
