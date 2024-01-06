@@ -4,12 +4,12 @@ const About = () => (
   <section id="about" style={{ backgroundColor: 'black', color: 'white', marginTop: '630px', padding: '30px 20px', textAlign: 'center' }}>
     <h1 style={{ fontSize: '28px', marginBottom: '20px', borderBottom: '2px solid white', paddingBottom: '10px' }}>Skills</h1>
     <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
-      <SkillProgressBar skill="HTML" percentage={80} />
-      <SkillProgressBar skill="CSS" percentage={75} />
+      <SkillProgressBar skill="HTML" percentage={85} />
+      <SkillProgressBar skill="CSS" percentage={85} />
       <SkillProgressBar skill="JavaScript" percentage={85} />
       <SkillProgressBar skill="React.js" percentage={90} />
-      <SkillProgressBar skill="Python" percentage={70} />
-      <SkillProgressBar skill="Node.js" percentage={80} />
+      <SkillProgressBar skill="Python" percentage={40} />
+      <SkillProgressBar skill="Node.js" percentage={40} />
     </div>
   </section>
 );
