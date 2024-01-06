@@ -1,13 +1,13 @@
-
 import React from 'react';
 import { Link } from 'react-scroll';
 
+
 const Navbar = () => {
   return (
-    <nav className="nav" id="navbar">
-      <div className="nav-content">
-        <ul className="nav-items">
-          <li className="nav-item">
+    <nav className="navbar" id="navbar">
+      <div className="navbar-content">
+        <ul className="navbar-items">
+          <li className="navbar-item">
             <Link
               activeClass="active"
               to="home"
@@ -19,7 +19,7 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="navbar-item">
             <Link
               activeClass="active"
               to="about"
@@ -29,6 +29,18 @@ const Navbar = () => {
               duration={500}
             >
               About
+            </Link>
+          </li>
+          <li className="navbar-item">
+            <Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={100}
+              duration={500}
+            >
+              Contact
             </Link>
           </li>
         </ul>
