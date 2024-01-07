@@ -142,4 +142,20 @@ html, body {
     cursor: pointer;
   }
 }
+@media only screen and (max-width: 600px) {
+  section#home {
+    padding: 10px; 
+  }
 
+  div {
+    margin-left: 0; 
+  }
+
+  h1 {
+    font-size: 18px; 
+  }
+
+  p {
+    font-size: 24px; 
+  }
+}
