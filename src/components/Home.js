@@ -12,7 +12,7 @@ const Home = () => (
       textAlign: 'center', // Center content on small screens
     }}
   >
-    <div style={{ marginTop: '100px', position: 'absolute', marginLeft: '200px' }}>
+    <div style={{ marginTop: '100px', position: 'absolute', marginLeft: '-20px' }}>
       <h1 style={{ color: 'orange', fontSize: '30px', fontFamily: 'inherit' }}>Hello!</h1>
       <p style={{ fontSize: '60px', marginTop: '-15px' }}>I'm <span style={{ color: 'orange' }}>Soundarya </span></p>
       <p style={{ color: 'orange', marginTop: '-60px', fontSize: '60px' }}>Priyadharshini </p>

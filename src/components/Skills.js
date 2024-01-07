@@ -2,7 +2,7 @@ import React from 'react';
 
 function Skills() {
   return (
-    <section id="skills" style={{ backgroundColor: 'black', color: 'white', marginTop: '200px', textAlign: 'center' }}>
+    <section id="skills" style={{ backgroundColor: 'black', color: 'white', marginTop: '100px', textAlign: 'center' }}>
       <h1>Projects</h1>
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', height: '300px' }}>
         <ProjectCard title="Avatar" description="This React app allows users to upload head and body images, merge them, and adjust the composition. It features a carousel for selecting body images 

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Experience() {
   return (
-    <section id="experience" style={{ backgroundColor: 'black', color: 'white', padding: '50px 0', textAlign: 'center',marginTop:'500px' }}>
+    <section id="experience" style={{ backgroundColor: 'black', color: 'white', padding: '50px 0', textAlign: 'center',marginTop:'800px',marginLeft:'60px' }}>
       <h1 style={{ fontSize: '2.5em', marginBottom: '20px' }}>Experience</h1>
       <div style={{ textAlign: 'left', maxWidth: '800px', margin: '0 auto' }}>
         <p>

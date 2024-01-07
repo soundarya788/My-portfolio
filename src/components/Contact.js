@@ -17,7 +17,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="contact-section" style={{ marginTop: '200px' }}>
+    <section id="contact" className="contact-section" style={{ marginTop: '200px',marginLeft:'20px' }}>
       <div className="contact-container">
         <h1>Message Me</h1>
         <form onSubmit={sendEmail} className="contact-form">

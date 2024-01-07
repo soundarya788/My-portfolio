@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About = () => (
-  <section id="about" style={{ backgroundColor: 'black', color: 'white', marginTop: '630px', padding: '30px 20px', textAlign: 'center' }}>
+  <section id="about" style={{ backgroundColor: 'black', color: 'white', marginTop: '630px', padding: '30px 20px', textAlign: 'center',marginLeft:'60px'   }}>
     <h1 style={{ fontSize: '28px', marginBottom: '20px', borderBottom: '2px solid white', paddingBottom: '10px' }}>Skills</h1>
     <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
       <SkillProgressBar skill="HTML" percentage={85} />
