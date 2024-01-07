@@ -17,7 +17,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="contact-section" style={{ marginTop: '200px',marginLeft:'20px' }}>
+    <section id="contact" className="contact-section" style={{ marginTop: '100px', marginLeft: '20px', padding: '50px' }}>
       <div className="contact-container">
         <h1>Message Me</h1>
         <form onSubmit={sendEmail} className="contact-form">
@@ -36,17 +36,13 @@ const Contact = () => {
             <textarea name="message" rows="4" required></textarea>
           </div>
 
-          
           <input type="hidden" name="to_email" value="soundaryaa040@gmail.com" />
-
-      
           <input type="hidden" name="phone_number" value="+91 9444151900" />
 
           <button type="submit" className="submit-button">
             Submit
           </button>
         </form>
-
         
         <div style={{ marginTop: '20px', textAlign: 'center' }}>
           <p>Email: soundaryaa040@gmail.com</p>
@@ -58,3 +54,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

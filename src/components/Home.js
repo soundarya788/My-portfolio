@@ -6,17 +6,17 @@ const Home = () => (
     style={{
       backgroundColor: 'black',
       color: '#fff',
-      marginTop: '100px',
-      marginLeft: '20px',
-      padding: '20px', // Add padding to improve spacing on small screens
-      textAlign: 'center', // Center content on small screens
+      padding: '20px',
+      textAlign: 'center',
     }}
   >
-    <div style={{ marginTop: '100px', position: 'absolute', marginLeft: '-20px' }}>
+    <div style={{ marginTop: '200px' }}>
       <h1 style={{ color: 'orange', fontSize: '30px', fontFamily: 'inherit' }}>Hello!</h1>
-      <p style={{ fontSize: '60px', marginTop: '-15px' }}>I'm <span style={{ color: 'orange' }}>Soundarya </span></p>
-      <p style={{ color: 'orange', marginTop: '-60px', fontSize: '60px' }}>Priyadharshini </p>
-      <p style={{ marginLeft: '20px', marginTop: '-40px', color: 'grey', fontSize: '20px' }}>
+      <p style={{ fontSize: '40px', marginTop: '-10px' }}>
+        I'm <span style={{ color: 'orange' }}>Soundarya </span>
+      </p>
+      <p style={{ color: 'orange', marginTop: '-30px', fontSize: '40px' }}>Priyadharshini </p>
+      <p style={{ marginTop: '-20px', color: 'grey', fontSize: '20px' }}>
         - Frontend and Web developer
       </p>
     </div>
@@ -24,3 +24,4 @@ const Home = () => (
 );
 
 export default Home;
+
