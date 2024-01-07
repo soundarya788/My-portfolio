@@ -2,7 +2,7 @@ import React from 'react';
 
 function Skills() {
   return (
-    <section id="skills" style={{ backgroundColor: 'black', color: 'white', padding: '50px 20px', textAlign: 'center' }}>
+    <section id="skills" style={{ backgroundColor: 'black', color: 'white', padding: '50px 20px', textAlign: 'center',marginTop:'200px' }}>
       <h1 style={{ fontSize: '28px', marginBottom: '20px', borderBottom: '2px solid white', paddingBottom: '10px' }}>Projects</h1>
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center' }}>
         <ProjectCard title="Avatar" description="This React app allows users to upload head and body images, merge them, and adjust the composition. It features a carousel for selecting body images from different sets and provides download functionality." link="https://elaborate-macaron-587470.netlify.app/" />

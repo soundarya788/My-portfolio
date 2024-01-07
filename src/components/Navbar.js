@@ -81,8 +81,10 @@ const Navbar = () => {
       <div className={`w3-sidebar w3-bar-block w3-dark-grey w3-animate-left ${showSidebar ? 'w3-show' : 'w3-hide'}`} id="mySidebar" style={{marginTop:'0px'}}>
         <button className="w3-bar-item w3-button w3-large" onClick={toggleSidebar} >Close &times;</button>
         <Link className="w3-bar-item w3-button" to="home" onClick={toggleSidebar}>Home</Link>
-        <Link className="w3-bar-item w3-button" to="about" onClick={toggleSidebar}>About</Link>
-        <Link className="w3-bar-item w3-button" to="contact" onClick={toggleSidebar}>Contact</Link>
+        <Link className="w3-bar-item w3-button" to="about" onClick={toggleSidebar}>Skills</Link>
+        <Link className="w3-bar-item w3-button" to="skills" onClick={toggleSidebar}>Projects</Link>
+        <Link className="w3-bar-item w3-button" to="experience" onClick={toggleSidebar}>experience</Link>
+        <Link className="w3-bar-item w3-button" to="contact" onClick={toggleSidebar}>Cotact</Link>
       </div>
 
       <button className="w3-button w3-white w3-xxlarge" onClick={toggleSidebar}>&#9776;</button>

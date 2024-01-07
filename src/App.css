@@ -115,7 +115,7 @@ html, body {
     display: block;
     position: fixed;
     height: 100%;
-    width: 100px;
+    width: 200px;
     background-color: var(--off-white);
     padding-top: 80px;
     box-sizing: border-box;
