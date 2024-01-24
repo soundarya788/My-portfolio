@@ -84,7 +84,7 @@ html, body {
   .w3-sidebar {
     display: hide;
     
-     /* Hide the sidebar on desktop */
+     
   }
 }
 
@@ -96,21 +96,20 @@ html, body {
 }
 
 .navbar-item {
-  margin-right: 20px; /* Adjust as needed for spacing */
+  margin-right: 20px; 
 }
 
 .navbar-item:last-child {
-  margin-right: 0; /* Remove margin for the last item */
+  margin-right: 0; 
 }
 
 
-/* Mobile and Tablet */
+
 @media (max-width: 600px) {
   .navbar {
-    display: none; /* Hide the navbar on mobile and tablet */
+    display: none; 
   }
 
-  /* Show the sidebar on mobile and tablet */
   .w3-sidebar {
     display: block;
     position: fixed;

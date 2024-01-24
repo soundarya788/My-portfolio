@@ -5,9 +5,8 @@ function Skills() {
     <section id="skills" style={{ backgroundColor: 'black', color: 'white', padding: '50px 20px', textAlign: 'center',marginTop:'200px' }}>
       <h1 style={{ fontSize: '28px', marginBottom: '20px', borderBottom: '2px solid white', paddingBottom: '10px' }}>Projects</h1>
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center' }}>
-        <ProjectCard title="Avatar" description="This React app allows users to upload head and body images, merge them, and adjust the composition. It features a carousel for selecting body images from different sets and provides download functionality." link="https://elaborate-macaron-587470.netlify.app/" />
-        <ProjectCard title="Pokedox" description="This React application serves as a simple Pokemon browser that allows users to search and filter Pokémon based on their names and types. Here are the main components and functionalities" link="https://warm-griffin-efdb10.netlify.app/" />
-        <ProjectCard title="UI design" description="This React application shows only for designs " link="https://gentle-unicorn-4c532b.netlify.app/" />
+      <ProjectCard title="Resume" description="This React application for a personal Resume. It includes two columns: the left column contains personal details, skills, language proficiency, and hobbies, while the right column features a career summary, work experience, educational background, and strengths. The layout is structured using HTML and styled with CSS. " link="https://funny-torte-0705ed.netlify.app/" />
+        <ProjectCard title="UI design" description="This React application shows only for designs in this application I used HTML, CSS , JAVASCRIPT and React.js" link="https://gentle-unicorn-4c532b.netlify.app/" />
       </div>
     </section>
   );
